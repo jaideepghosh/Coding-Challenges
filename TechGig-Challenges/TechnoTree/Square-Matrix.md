@@ -18,24 +18,44 @@ Output Format
 Number of occurrences of the word in the matrix {an integer} 
 
 Sample Test case 1 
+------------------
+
 Sample Input
-2
-A#S
-S#T
-AS
-Sample Output
+
 2
 
-Sample Test case 2
-Sample Input
-5
-E#D#E#E#E
-D#I#S#K#E
-E#S#E#E#E
-E#C#E#E#E
-E#E#E#E#E 
-DISK
+A#S
+
+S#T
+
+AS
+
 Sample Output
+
+2
+
+=================================================================
+Sample Test case 2
+------------------
+
+Sample Input
+
+5
+
+E#D#E#E#E
+
+D#I#S#K#E
+
+E#S#E#E#E
+
+E#C#E#E#E
+
+E#E#E#E#E 
+
+DISK
+
+Sample Output:
+
 1
 
 Explanation 
