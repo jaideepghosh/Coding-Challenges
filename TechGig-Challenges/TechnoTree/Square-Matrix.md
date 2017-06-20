@@ -35,6 +35,7 @@ Sample Output
 2
 
 ==================
+
 Sample Test case 2
 ------------------
 
