@@ -140,3 +140,7 @@ public static int ThirstyCrowProblem(int[] input1,int input3) {
 }
 
 ```
+
+# Result
+
+[![N|Solid](https://cdn.rawgit.com/jaideepghosh/Coding-Challenges/c4fedd8a/TechGig-Challenges/Master%20Code%20Champ/Techgig%20-%20Master%20Code%20Champ%20-%20Crazy%20Crow%20(Thrusty%20Crow).jpg)](https://jaideepghosh.blogspot.in)
