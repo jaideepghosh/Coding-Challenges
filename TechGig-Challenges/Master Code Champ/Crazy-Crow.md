@@ -43,46 +43,7 @@ is minimum 10 stones even in worst case.
 
 
 ```sh
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
-public class CandidateCode {
-    /*
-     * Complete the function below.
-    */
-    
-public static int ThirstyCrowProblem(int[] input1,int input3) {
-		int n = input1.length;
-		int k = input3;
-		int tempk = 0;
 
-		if(input1 == null || k < 0 || k > input1.length || n <= 0 || input1.length != n) {
-			return -1;
-		}
-
-		if(k==0) {
-			return 0;
-		}
-
-		for(int i = 0; i < n; i++) {
-			if(input1[i] < 0) {
-				return -1;
-			} else if (input1[i] == 0) {
-				if(++tempk==k) {
-					return 0;
-				}
-			}
-		}
-		Arrays.sort(input1);
-		return minStones(input1,k-tempk,tempk);
-	}
-    public static int minStones(int[] input, int k, int start) {
-    	 List<Integer> minStones = new ArrayList<Integer>();
-         minStones.add(Integer.MAX_VALUE);
-         minStones(input,k,start,0,minStones);
-         return minStones.get(0);
 import java.io.*;
 import java.util.*;
 import java.text.*;
@@ -151,7 +112,8 @@ public class CandidateCode {
             }
             minStones(clone,k-tempk,i,stones+stns,minStns);
         }
-    }    
+    }
+    
 
     public static void main(String[] args) throws IOException{
         Scanner in = new Scanner(System.in);
