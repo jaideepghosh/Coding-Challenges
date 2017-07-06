@@ -41,6 +41,8 @@ is minimum 10 stones even in worst case.
 
 # Solution:
 
+
+```sh
 import java.io.*;
 import java.util.*;
 import java.text.*;
@@ -51,7 +53,6 @@ public class CandidateCode {
      * Complete the function below.
     */
     
-```sh
 public static int ThirstyCrowProblem(int[] input1,int input3) {
 		int n = input1.length;
 		int k = input3;
@@ -120,8 +121,6 @@ public static int ThirstyCrowProblem(int[] input1,int input3) {
           minStones(clone,k-tempk,i,stones+stns,minStns);
       }
     }
-```
-
 
     public static void main(String[] args) throws IOException{
         Scanner in = new Scanner(System.in);
@@ -139,3 +138,5 @@ public static int ThirstyCrowProblem(int[] input1,int input3) {
         System.out.println(String.valueOf(output));
     }
 }
+
+```
