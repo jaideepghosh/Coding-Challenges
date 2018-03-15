@@ -19,8 +19,11 @@ Each row in the table denotes the lengths of each of a triangle's three sides.
 #### Sample Output
 
 `Isosceles
+
 Equilateral
+
 Scalene
+
 Not A Triangle`
 
 #### Explanation
